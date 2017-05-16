@@ -1,3 +1,3 @@
 
-public class HealthObject{
+public class HealthObject extends Sprite{
 }
