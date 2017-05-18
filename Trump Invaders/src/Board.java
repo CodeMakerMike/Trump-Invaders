@@ -1,6 +1,7 @@
+import javax.swing.*;
 
-public class Board implements JFrame{
+public class Board extends JFrame {
 
-public Board(){
-}
+    public Board(){
+    }
 }
