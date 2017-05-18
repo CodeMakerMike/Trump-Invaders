@@ -1,7 +1,7 @@
 import java.awt.Image;
 
 public class HealthObject extends Sprite{
-    private health
+    private health; //hehe xd
     public HealthObject(Image image){
         super(image);
     }
