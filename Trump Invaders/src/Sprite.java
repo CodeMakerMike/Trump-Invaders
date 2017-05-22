@@ -8,6 +8,7 @@
 
         private boolean visible;
         private Image image;
+        private int health;
         protected int x;
         protected int y;
         protected int width;
@@ -48,6 +49,14 @@
         public int getX() {
 
             return x;
+        }
+
+        public void setHealth(int health) {
+            this.health = health;
+        }
+        
+        public int getHealth(){
+            return health;
         }
 
         public boolean isVisible() {
