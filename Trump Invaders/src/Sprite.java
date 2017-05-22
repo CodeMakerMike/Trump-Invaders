@@ -2,6 +2,7 @@
  * Created by mhall17162 on 5/10/2017.
  */
     import java.awt.Image;
+    import java.awt.Rectangle;
 
     public class Sprite {
 
@@ -9,11 +10,19 @@
         private Image image;
         protected int x;
         protected int y;
+        protected int width;
+        protected int height;
         protected int dx;
 
         public Sprite(Image image) {
             this.image = image;
             visible = true;
+            width = this.image.getWidth(null);
+            height = this.image.getHeight(null);
+        }
+
+        public Rectangle getBounds(){
+            return new Rectangle(x, y, width, height);
         }
 
         public void die() {
