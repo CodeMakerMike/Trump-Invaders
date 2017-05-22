@@ -6,4 +6,8 @@ public class Trump extends HealthObject {
     public Trump(){
         super(//trumpimage);
     }
+
+    public void playSound(){
+        
+    }
 }
