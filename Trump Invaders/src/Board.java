@@ -30,9 +30,9 @@ public class Board extends JFrame {
         c.setBackground(Color.BLACK);
         for(int i = 0; i < 100; i++) {
             if(i % 2 == 0){
-                image = ImageLoader.loadImage("/images/TRUMP1donebetter.png");
+                image = ImageLoader.loadImage("media/images/TRUMP1donebetter.png");
             }else {
-                image = ImageLoader.loadImage("/images/Trump-Front.png");
+                image = ImageLoader.loadImage("media/images/Trump-Front.png");
             }
             g.drawImage(image, i, i, null);
             g.drawString(image.toString(), 0, 100);
