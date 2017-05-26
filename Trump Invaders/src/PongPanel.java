@@ -17,7 +17,7 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
     private int score1, score2;
 
     public PongPanel(Pong game) {
-        setBackground(Color.WHITE);
+        setBackground(Color.CYAN);
         this.game = game;
         ball = new Ball(game);
         player1 = new Racket(game, KeyEvent.VK_UP, KeyEvent.VK_DOWN, game.getWidth() - 36);
@@ -40,6 +40,11 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
             score1++;
         else
             score2++;
+    }
+
+    public void resetScore(){
+        score1=0;
+        score2=0;
     }
 
     public int getScore(int playerNo) {
