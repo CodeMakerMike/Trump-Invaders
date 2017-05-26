@@ -1,7 +1,8 @@
 /**
  * Created by Mhall17162 on 5/26/2017.
- */import java.awt.Graphics;
-import java.awt.Rectangle;
+ */
+
+import java.awt.*;
 
 import javax.swing.JOptionPane;
 
@@ -50,6 +51,7 @@ public class Ball {
     }
 
     public void paint(Graphics g) {
+        g.setColor(Color.MAGENTA);
         g.fillRect(x, y, WIDTH, HEIGHT);
     }
 }

@@ -1,7 +1,8 @@
 /**
  * Created by Mhall17162 on 5/26/2017.
- */import java.awt.Graphics;
-import java.awt.Rectangle;
+ */
+
+import java.awt.*;
 
 public class Racket {
     private static final int WIDTH = 10, HEIGHT = 60;
@@ -44,6 +45,7 @@ public class Racket {
     }
 
     public void paint(Graphics g) {
+        g.setColor(Color.BLACK);
         g.fillRect(x, y, WIDTH, HEIGHT);
     }
 }
