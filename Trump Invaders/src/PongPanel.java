@@ -37,9 +37,9 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
 
     public void increaseScore(int playerNo) {
         if (playerNo == 1)
-            score1++;
-        else
             score2++;
+        else
+            score1++;
     }
 
     public void resetScore(){
