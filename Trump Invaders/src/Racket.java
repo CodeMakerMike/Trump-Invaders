@@ -45,7 +45,7 @@ public class Racket {
     }
 
     public void paint(Graphics g) {
-        g.setColor(Color.BLACK);
+        g.setColor(new Color(18,0,58));
         g.fillRect(x, y, WIDTH, HEIGHT);
     }
 }

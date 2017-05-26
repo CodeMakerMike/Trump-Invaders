@@ -51,7 +51,7 @@ public class Ball {
     }
 
     public void paint(Graphics g) {
-        g.setColor(Color.MAGENTA);
+        g.setColor(new Color(108,0,108));
         g.fillRect(x, y, WIDTH, HEIGHT);
     }
 }

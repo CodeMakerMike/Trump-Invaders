@@ -17,7 +17,7 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
     private int score1, score2;
 
     public PongPanel(Pong game) {
-        setBackground(Color.CYAN);
+        setBackground(Color.BLACK);
         this.game = game;
         ball = new Ball(game);
         player1 = new Racket(game, KeyEvent.VK_UP, KeyEvent.VK_DOWN, game.getWidth() - 36);
